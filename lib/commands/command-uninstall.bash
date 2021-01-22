@@ -23,7 +23,7 @@ uninstall_command() {
   local install_path
   install_path=$(get_install_path "$plugin_name" "$install_type" "$version")
 
-  if [ ! -d "$install_path" ]; then
+  if [ ! -d "$install_path" ] && ! [ -L "$install_path" ]; then
     display_error "No such version"
     exit 1
   fi
