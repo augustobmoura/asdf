@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.9.0](https://www.github.com/augustobmoura/asdf/compare/v0.8.0...v0.9.0) (2021-07-19)
+
+
+### Features
+
+* asdf latest defer to plugin to determine the latest version ([#938](https://www.github.com/augustobmoura/asdf/issues/938)) ([664d82e](https://www.github.com/augustobmoura/asdf/commit/664d82ed8a734eb30988840829a972f8ddd8e523))
+* configurable plugin repo last check time ([#957](https://www.github.com/augustobmoura/asdf/issues/957)) ([1716afa](https://www.github.com/augustobmoura/asdf/commit/1716afa02125aa322d8a688ff4b3e95f2e08b33c))
+* support for "latest" in shell, local, and global ([#802](https://www.github.com/augustobmoura/asdf/issues/802)) ([0edb505](https://www.github.com/augustobmoura/asdf/commit/0edb50547c21b3c7f4f1379b898b7fef7e9a2da3))
+
+
+### Bug Fixes
+
+* <plugin update all> to latest commit on default branch for each plugin ([#800](https://www.github.com/augustobmoura/asdf/issues/800)) ([456d8e3](https://www.github.com/augustobmoura/asdf/commit/456d8e36ca76b36b848453a63b54ffeb214bce7e))
+* broken link in contributing.md ([#852](https://www.github.com/augustobmoura/asdf/issues/852)) ([90b92b9](https://www.github.com/augustobmoura/asdf/commit/90b92b99be8fb8f482e0c41e5e867302ed97806e))
+* consistent system completion ([#911](https://www.github.com/augustobmoura/asdf/issues/911)) ([f4a80b5](https://www.github.com/augustobmoura/asdf/commit/f4a80b53df851e4d2af7921211b60d48773ccb8d))
+* delete instructions to add dependencies with Homebrew ([#937](https://www.github.com/augustobmoura/asdf/issues/937)) ([24d79d4](https://www.github.com/augustobmoura/asdf/commit/24d79d4d9256d7d130fbaf8a4b7dc34aeb1b01d7))
+* docs file rename ([#809](https://www.github.com/augustobmoura/asdf/issues/809)) ([2bf076f](https://www.github.com/augustobmoura/asdf/commit/2bf076f3d33087966cdb4de52cfdf0042eb7c076))
+* format command-reshim ([43d6fef](https://www.github.com/augustobmoura/asdf/commit/43d6fef000a2d7ab5ab2cc662f7d066d3489e8b1))
+* help text as per new feats in [#633](https://www.github.com/augustobmoura/asdf/issues/633) ([#991](https://www.github.com/augustobmoura/asdf/issues/991)) ([0d95663](https://www.github.com/augustobmoura/asdf/commit/0d956635b5cabe35f0895121929e8e668a3ee03d))
+* insert error handling in list-all & download plugin scripts ([#881](https://www.github.com/augustobmoura/asdf/issues/881)) ([a7d3661](https://www.github.com/augustobmoura/asdf/commit/a7d3661f6c53b24ae1c21e93f94209f3af243349))
+* lint scripts for local and CI ([#961](https://www.github.com/augustobmoura/asdf/issues/961)) ([5dafbc8](https://www.github.com/augustobmoura/asdf/commit/5dafbc8e390eacbcfcf97d6d2890e0aa6ef9cd60))
+* pipe find into while ([26d2c64](https://www.github.com/augustobmoura/asdf/commit/26d2c64477a1faabedd9a5f97aa7da706988cd72))
+* plugin update portability ([#924](https://www.github.com/augustobmoura/asdf/issues/924)) ([d7b62d2](https://www.github.com/augustobmoura/asdf/commit/d7b62d2e920d2395f8812e5a5ff9d34b2986c452))
+* remove find -print0 ([b9228a2](https://www.github.com/augustobmoura/asdf/commit/b9228a26de6a0337a7b59fb5252323d368a72a92))
+* shellcheck errors and typo ([6af66dc](https://www.github.com/augustobmoura/asdf/commit/6af66dc88cc079de560f08f53734709b22d212ba))
+* shims break when POSIXLY_CORRECT=1 ([0de6910](https://www.github.com/augustobmoura/asdf/commit/0de6910d1f99c9576f8c2e5a916644fed99cddb5)), closes [#581](https://www.github.com/augustobmoura/asdf/issues/581)
+* support latest with filter on local and global ([#633](https://www.github.com/augustobmoura/asdf/issues/633)) ([5cf8f89](https://www.github.com/augustobmoura/asdf/commit/5cf8f8962fbd5fe2bc86856bc4676f88e1aa8885))
+* typo and refactor on top of master ([0c263ad](https://www.github.com/augustobmoura/asdf/commit/0c263ad70090dd832215ff20f12dd4e14855fdbe))
+
 ## 0.8.1
 
 Features
